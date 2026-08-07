@@ -23,6 +23,7 @@ volatile uint8_t zx_render_count;
 volatile uint8_t zx_last_redraw_rows;
 volatile uint8_t zx_full_render_count;
 volatile uint8_t zx_last_sound;
+volatile uint8_t zx_last_interrupt_state;
 volatile uint8_t zx_known_hit_letter;
 volatile uint8_t zx_known_miss_letter;
 
@@ -219,6 +220,7 @@ static void update_after_guess(const GameState *game, uint8_t key, uint8_t resul
         render_message(TXT_LETTER_HIT, UI_GOOD);
         zx_last_redraw_rows = 3u;
     }
+    zx_last_interrupt_state = z80_get_int_state();
     ++zx_render_count;
 }
 

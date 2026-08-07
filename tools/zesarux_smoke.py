@@ -211,6 +211,7 @@ def main() -> int:
     redraw_rows = symbol(table, "zx_last_redraw_rows")
     full_renders = symbol(table, "zx_full_render_count")
     last_sound = symbol(table, "zx_last_sound")
+    last_interrupt_state = symbol(table, "zx_last_interrupt_state")
     hit_letter = symbol(table, "zx_known_hit_letter")
     miss_letter = symbol(table, "zx_known_miss_letter")
     markers = (
@@ -220,6 +221,7 @@ def main() -> int:
         redraw_rows,
         full_renders,
         last_sound,
+        last_interrupt_state,
         hit_letter,
         miss_letter,
     )
@@ -301,6 +303,8 @@ def main() -> int:
         if read_byte(sock, last_sound) != 3:
             raise RuntimeError("hit did not select the rising sound")
         assert_black_border_shadow(sock)
+        if read_byte(sock, last_interrupt_state) & 0x05 == 0:
+            raise RuntimeError("hit sound left interrupts disabled")
         print(f"PASS {args.machine}: hit used partial redraw and rising sound")
 
         previous_render = read_byte(sock, renders)
@@ -316,6 +320,8 @@ def main() -> int:
         if read_byte(sock, last_sound) != 1:
             raise RuntimeError("repeat did not select the repeat sound")
         assert_black_border_shadow(sock)
+        if read_byte(sock, last_interrupt_state) & 0x05 == 0:
+            raise RuntimeError("repeat sound left interrupts disabled")
         print(f"PASS {args.machine}: repeat used one-row redraw and repeat sound")
 
         previous_render = read_byte(sock, renders)
@@ -331,6 +337,8 @@ def main() -> int:
         if read_byte(sock, last_sound) != 2:
             raise RuntimeError("miss did not select the descending sound")
         assert_black_border_shadow(sock)
+        if read_byte(sock, last_interrupt_state) & 0x05 == 0:
+            raise RuntimeError("miss sound left interrupts disabled")
         print(f"PASS {args.machine}: miss used partial redraw and descending sound")
 
         command(sock, f"save-screen {args.screenshot.resolve()}")
