@@ -1,0 +1,38 @@
+/*
+ * Canonical UI messages for gettext extraction.
+ *
+ * Regenerate locales/hangman.pot with `make pot`.  The first argument is
+ * msgctxt and also becomes the TXT_* macro name in generated/locale.h.
+ */
+LOCALE_TEXT("title_48", "HANGMAN EN 48K")
+LOCALE_TEXT("title_128", "HANGMAN EN 128K")
+LOCALE_TEXT("edition", "BSD GAMES EDITION")
+LOCALE_TEXT("ascii_notice", "NO ACCENTS - A-Z ONLY")
+LOCALE_TEXT("dictionary_prefix", "WORDS: ")
+LOCALE_TEXT("dictionary_suffix", " WORDS")
+LOCALE_TEXT("mode_short_line", "1  SHORT     3-4")
+LOCALE_TEXT("mode_medium_line", "2  MEDIUM    5-7")
+LOCALE_TEXT("mode_long_line", "3  LONG      8-15")
+LOCALE_TEXT("mode_all_line", "4  ALL WORDS")
+LOCALE_TEXT("choose_mode", "CHOOSE MODE 1-4")
+LOCALE_TEXT("keyboard", "KEYBOARD A-Z")
+LOCALE_TEXT("mode_label", "MODE")
+LOCALE_TEXT("mode_short", "SHORT")
+LOCALE_TEXT("mode_medium", "MEDIUM")
+LOCALE_TEXT("mode_long", "LONG")
+LOCALE_TEXT("mode_all", "ALL WORDS")
+LOCALE_TEXT("errors_label", "MISSES ")
+LOCALE_TEXT("round_label", "ROUND ")
+LOCALE_TEXT("wins_label", "WINS ")
+LOCALE_TEXT("dictionary_label", "WORDS ")
+LOCALE_TEXT("guess_word", "GUESS THE WORD")
+LOCALE_TEXT("type_letter", "TYPE A LETTER")
+LOCALE_TEXT("letter_repeat", "LETTER ALREADY USED")
+LOCALE_TEXT("letter_miss", "NO SUCH LETTER")
+LOCALE_TEXT("letter_hit", "GOOD!")
+LOCALE_TEXT("won", "WELL DONE! SOLVED.")
+LOCALE_TEXT("word_prefix", "WORD: ")
+LOCALE_TEXT("next_prompt", "ENTER-NEXT M-MENU Q-QUIT")
+LOCALE_TEXT("thanks", "THANKS FOR PLAYING")
+LOCALE_TEXT("any_key", "PRESS ANY KEY")
+LOCALE_TEXT("license_key", "L  LICENSE")

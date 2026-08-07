@@ -1,0 +1,10 @@
+{
+  "date": "2026-08-07",
+  "project": "BSD Hangman for ZX Spectrum",
+  "existing_site": false,
+  "existing_hallmark_stamp": false,
+  "audience": "retro gamers and ZX Spectrum users",
+  "primary_use": "select a language and machine, then play the released TAP",
+  "tone": "raw BSD terminal with Spectrum-era restraint",
+  "context_source": "inferred from the game and the user's reference sites"
+}

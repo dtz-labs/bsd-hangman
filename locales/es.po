@@ -1,0 +1,141 @@
+# Translation catalog for ZX Spectrum Hangman.
+msgid ""
+msgstr ""
+"Project-Id-Version: zx-spectrum-hangman 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-07 00:00+0200\n"
+"PO-Revision-Date: 2026-08-07 00:00+0200\n"
+"Last-Translator: Michal Pasternak\n"
+"Language-Team: es\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgctxt "title_48"
+msgid "HANGMAN EN 48K"
+msgstr "AHORCADO ES 48K"
+
+msgctxt "title_128"
+msgid "HANGMAN EN 128K"
+msgstr "AHORCADO ES 128K"
+
+msgctxt "edition"
+msgid "BSD GAMES EDITION"
+msgstr "BSD GAMES EDITION"
+
+msgctxt "ascii_notice"
+msgid "NO ACCENTS - A-Z ONLY"
+msgstr "SIN ACENTOS - SOLO A-Z"
+
+msgctxt "dictionary_prefix"
+msgid "WORDS: "
+msgstr "DICCIONARIO: "
+
+msgctxt "dictionary_suffix"
+msgid " WORDS"
+msgstr " PAL."
+
+msgctxt "mode_short_line"
+msgid "1  SHORT     3-4"
+msgstr "1  CORTAS     3-4"
+
+msgctxt "mode_medium_line"
+msgid "2  MEDIUM    5-7"
+msgstr "2  MEDIAS     5-7"
+
+msgctxt "mode_long_line"
+msgid "3  LONG      8-15"
+msgstr "3  LARGAS     8-15"
+
+msgctxt "mode_all_line"
+msgid "4  ALL WORDS"
+msgstr "4  TODAS"
+
+msgctxt "choose_mode"
+msgid "CHOOSE MODE 1-4"
+msgstr "ELIGE MODO 1-4"
+
+msgctxt "keyboard"
+msgid "KEYBOARD A-Z"
+msgstr "TECLADO A-Z"
+
+msgctxt "mode_label"
+msgid "MODE"
+msgstr "MODO"
+
+msgctxt "mode_short"
+msgid "SHORT"
+msgstr "CORTAS"
+
+msgctxt "mode_medium"
+msgid "MEDIUM"
+msgstr "MEDIAS"
+
+msgctxt "mode_long"
+msgid "LONG"
+msgstr "LARGAS"
+
+msgctxt "mode_all"
+msgid "ALL WORDS"
+msgstr "TODAS"
+
+msgctxt "errors_label"
+msgid "MISSES "
+msgstr "FALLOS "
+
+msgctxt "round_label"
+msgid "ROUND "
+msgstr "RONDA "
+
+msgctxt "wins_label"
+msgid "WINS "
+msgstr "VICTORIAS "
+
+msgctxt "dictionary_label"
+msgid "WORDS "
+msgstr "PALABRAS "
+
+msgctxt "guess_word"
+msgid "GUESS THE WORD"
+msgstr "ADIVINA LA PALABRA"
+
+msgctxt "type_letter"
+msgid "TYPE A LETTER"
+msgstr "PULSA UNA LETRA"
+
+msgctxt "letter_repeat"
+msgid "LETTER ALREADY USED"
+msgstr "LETRA YA USADA"
+
+msgctxt "letter_miss"
+msgid "NO SUCH LETTER"
+msgstr "ESA LETRA NO ESTA"
+
+msgctxt "letter_hit"
+msgid "GOOD!"
+msgstr "BIEN!"
+
+msgctxt "won"
+msgid "WELL DONE! SOLVED."
+msgstr "MUY BIEN! ACERTADA."
+
+msgctxt "word_prefix"
+msgid "WORD: "
+msgstr "PALABRA: "
+
+msgctxt "next_prompt"
+msgid "ENTER-NEXT M-MENU Q-QUIT"
+msgstr "ENTER-SIGUE M-MENU Q-SALIR"
+
+msgctxt "thanks"
+msgid "THANKS FOR PLAYING"
+msgstr "GRACIAS POR JUGAR"
+
+msgctxt "any_key"
+msgid "PRESS ANY KEY"
+msgstr "PULSA CUALQUIER TECLA"
+
+msgctxt "license_key"
+msgid "L  LICENSE"
+msgstr "L  LICENCIA"

@@ -1,0 +1,24 @@
+wordfreq
+Copyright 2022 Robyn Speer
+
+Robyn Speer must be credited as Robyn Speer, the name used on her academic
+work. The wordfreq code is Apache-2.0 and its redistributable data files are
+available under Creative Commons Attribution-ShareAlike 4.0:
+
+https://creativecommons.org/licenses/by-sa/4.0/
+
+The data includes material from Google Books Ngrams, Google Books Syntactic
+Ngrams, the Leeds Internet Corpus, Wikipedia, ParaCrawl, OPUS OpenSubtitles
+2018, OpenSubtitles, and SUBTLEX word lists by Marc Brysbaert et al. Additional
+frequency statistics were collected from the Twitter streaming API.
+
+Google requests acknowledgement of Google Books Ngram Viewer. OpenSubtitles
+data must be attributed to OpenSubtitles. Wordfreq and code derived from it
+must credit the SUBTLEX authors, and it must remain clear that SUBTLEX is
+freely available data.
+
+Full upstream notice:
+https://github.com/rspeer/wordfreq/blob/v3.1.1/NOTICE.md
+
+Source release:
+https://github.com/rspeer/wordfreq/tree/v3.1.1

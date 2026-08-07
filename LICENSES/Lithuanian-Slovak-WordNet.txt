@@ -1,0 +1,14 @@
+Slovak WordNet and Lithuanian WordNet are available under the following
+alternative licences:
+
+- GNU Affero General Public License, version 3
+- Creative Commons Attribution-ShareAlike 3.0 Unported License
+- Open Database License (ODbL) v1.0
+
+This repository selects Creative Commons Attribution-ShareAlike 3.0 Unported
+for its modified Lithuanian and Slovak word-list extracts:
+
+https://creativecommons.org/licenses/by-sa/3.0/
+
+Upstream notice:
+https://github.com/omwn/omw-data/blob/main/wns/slk/LICENSE

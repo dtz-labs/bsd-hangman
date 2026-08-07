@@ -1,0 +1,9 @@
+SJP.PL `odmiany`
+
+Source release used: sjp-odm-20260803.zip
+Source page: https://sjp.pl/sl/odmiany/
+
+The source offers a choice of GPL-2.0, LGPL-2.1, CC BY 4.0, or Apache-2.0.
+This project selects the Apache License 2.0 option:
+
+https://www.apache.org/licenses/LICENSE-2.0

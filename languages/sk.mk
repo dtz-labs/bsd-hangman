@@ -1,0 +1,7 @@
+LANGUAGE_NAME := Slovencina
+PROGRAM_NAME := hangman-sk
+LOCALE_PO := locales/sk.po
+DICTIONARY_WORDS := data/words-sk-ascii.txt
+DICTIONARY_WORDS_48 := 4000
+DICTIONARY_WORDS_128 := 16000
+DICTIONARY_MAX_48_BYTES := 20000

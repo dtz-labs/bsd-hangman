@@ -1,0 +1,141 @@
+# Translation catalog for ZX Spectrum Hangman.
+msgid ""
+msgstr ""
+"Project-Id-Version: zx-spectrum-hangman 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-07 00:00+0200\n"
+"PO-Revision-Date: 2026-08-07 00:00+0200\n"
+"Last-Translator: Michal Pasternak\n"
+"Language-Team: cs\n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgctxt "title_48"
+msgid "HANGMAN EN 48K"
+msgstr "SIBENICE CS 48K"
+
+msgctxt "title_128"
+msgid "HANGMAN EN 128K"
+msgstr "SIBENICE CS 128K"
+
+msgctxt "edition"
+msgid "BSD GAMES EDITION"
+msgstr "BSD GAMES EDITION"
+
+msgctxt "ascii_notice"
+msgid "NO ACCENTS - A-Z ONLY"
+msgstr "BEZ DIAKRITIKY - JEN A-Z"
+
+msgctxt "dictionary_prefix"
+msgid "WORDS: "
+msgstr "SLOVNIK: "
+
+msgctxt "dictionary_suffix"
+msgid " WORDS"
+msgstr " SLOV"
+
+msgctxt "mode_short_line"
+msgid "1  SHORT     3-4"
+msgstr "1  KRATKA     3-4"
+
+msgctxt "mode_medium_line"
+msgid "2  MEDIUM    5-7"
+msgstr "2  STREDNI    5-7"
+
+msgctxt "mode_long_line"
+msgid "3  LONG      8-15"
+msgstr "3  DLOUHA     8-15"
+
+msgctxt "mode_all_line"
+msgid "4  ALL WORDS"
+msgstr "4  VSECHNA"
+
+msgctxt "choose_mode"
+msgid "CHOOSE MODE 1-4"
+msgstr "VYBER REZIM 1-4"
+
+msgctxt "keyboard"
+msgid "KEYBOARD A-Z"
+msgstr "KLAVESNICE A-Z"
+
+msgctxt "mode_label"
+msgid "MODE"
+msgstr "REZIM"
+
+msgctxt "mode_short"
+msgid "SHORT"
+msgstr "KRATKA"
+
+msgctxt "mode_medium"
+msgid "MEDIUM"
+msgstr "STREDNI"
+
+msgctxt "mode_long"
+msgid "LONG"
+msgstr "DLOUHA"
+
+msgctxt "mode_all"
+msgid "ALL WORDS"
+msgstr "VSECHNA"
+
+msgctxt "errors_label"
+msgid "MISSES "
+msgstr "CHYBY "
+
+msgctxt "round_label"
+msgid "ROUND "
+msgstr "KOLO "
+
+msgctxt "wins_label"
+msgid "WINS "
+msgstr "VYHRY "
+
+msgctxt "dictionary_label"
+msgid "WORDS "
+msgstr "SLOVNIK "
+
+msgctxt "guess_word"
+msgid "GUESS THE WORD"
+msgstr "UHODNI SLOVO"
+
+msgctxt "type_letter"
+msgid "TYPE A LETTER"
+msgstr "ZADEJ PISMENO"
+
+msgctxt "letter_repeat"
+msgid "LETTER ALREADY USED"
+msgstr "PISMENO UZ BYLO"
+
+msgctxt "letter_miss"
+msgid "NO SUCH LETTER"
+msgstr "TOTO PISMENO TAM NENI"
+
+msgctxt "letter_hit"
+msgid "GOOD!"
+msgstr "SPRAVNE!"
+
+msgctxt "won"
+msgid "WELL DONE! SOLVED."
+msgstr "VYBORNE! UHODNUTO."
+
+msgctxt "word_prefix"
+msgid "WORD: "
+msgstr "SLOVO: "
+
+msgctxt "next_prompt"
+msgid "ENTER-NEXT M-MENU Q-QUIT"
+msgstr "ENTER-DALSI M-MENU Q-KONEC"
+
+msgctxt "thanks"
+msgid "THANKS FOR PLAYING"
+msgstr "DEKUJI ZA HRU"
+
+msgctxt "any_key"
+msgid "PRESS ANY KEY"
+msgstr "STISKNI LIBOVOLNOU KLAVESU"
+
+msgctxt "license_key"
+msgid "L  LICENSE"
+msgstr "L  LICENCE"

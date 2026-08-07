@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="description" content="Play the BSD Hangman port for ZX Spectrum 48K and 128K in eight languages.">
+  <title>BSD Hangman — ZX Spectrum port</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="nav-term" aria-label="Project navigation">
+    <pre class="nav-term__line"><span class="prompt">&gt;</span> bsd-hangman <a href="#play">--play</a> <a href="https://github.com/dtz-labs/bsd-hangman">--source</a> <a href="https://github.com/dtz-labs/bsd-hangman/releases">--release</a><span class="caret" aria-hidden="true">▮</span></pre>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="page-title">
+      <div class="hero__copy">
+        <p class="system-line">BSD GAMES / ZX SPECTRUM / 2026</p>
+        <h1 id="page-title">BSD HANGMAN</h1>
+        <p class="hero__lede">Eight languages. Two machines. Seven misses. Pick a tape and guess the word before the original BSD gallows is complete.</p>
+        <p class="ascii-warning">NO ACCENTS — A–Z ONLY</p>
+      </div>
+      <pre class="gallows" aria-label="Completed BSD Hangman gallows">
+     ______
+     |    |
+     |    O
+     |   /|\
+     |    |
+     |   / \
+   __|_____
+   |      |___
+   |_________|</pre>
+    </section>
+
+    <section class="workbench" id="play" aria-labelledby="play-title">
+      <div class="controls">
+        <h2 id="play-title">LOAD A RELEASE TAPE</h2>
+        <p>Choose an ASCII language edition and the matching Spectrum model. The 128K tapes carry the larger dictionaries.</p>
+
+        <form id="edition-form" method="get" action="#play">
+          <div class="field">
+            <label for="language">Language</label>
+            <select id="language" name="lang">
+              <option value="pl">Polski</option>
+              <option value="en">English</option>
+              <option value="es">Espanol</option>
+              <option value="ca">Catala</option>
+              <option value="lt">Lietuviu</option>
+              <option value="sk">Slovencina</option>
+              <option value="cs">Cestina</option>
+              <option value="pt">Portugues</option>
+            </select>
+          </div>
+
+          <fieldset>
+            <legend>Machine</legend>
+            <div class="machine-options">
+              <label><input type="radio" name="machine" value="48"> Spectrum 48K</label>
+              <label><input type="radio" name="machine" value="128"> Spectrum 128K</label>
+            </div>
+          </fieldset>
+
+          <button class="load-button" type="submit">LOAD TAPE</button>
+        </form>
+
+        <dl class="edition-readout">
+          <div><dt>FILE</dt><dd id="tape-name">—</dd></div>
+          <div><dt>RELEASE</dt><dd id="release-name">checking…</dd></div>
+          <div><dt>STATUS</dt><dd id="emulator-status" role="status" aria-live="polite">waiting…</dd></div>
+        </dl>
+
+        <div class="action-links">
+          <a id="download-tape" href="taps/hangman-pl-128.tap" download>DOWNLOAD TAP</a>
+          <a href="https://buymeacoffee.com/mpasternak">BUY ME A COFFEE</a>
+        </div>
+      </div>
+
+      <div class="emulator-column">
+        <div class="emulator-label" aria-hidden="true">JSSPECCY3://LOCAL_SESSION</div>
+        <div class="emulator-stage">
+          <div id="jsspeccy" aria-label="ZX Spectrum emulator"></div>
+        </div>
+        <p class="sound-note">Press the emulator’s Play control once to enable beeper audio. The selected release TAP then autoloads.</p>
+      </div>
+    </section>
+
+    <section class="notes" aria-labelledby="notes-title">
+      <h2 id="notes-title">WHAT IS ON THE TAPE</h2>
+      <div class="notes__body">
+        <p>The game keeps the BSD Hangman noose, seven-error drawing order, and BSD-3-Clause program licence. The Spectrum port adds partial screen updates, three beeper cues, four word-length modes, and compressed dictionaries sized separately for 48K and 128K.</p>
+        <p>Dictionary data retains its own upstream terms. Read the <a href="https://github.com/dtz-labs/bsd-hangman/blob/main/THIRD_PARTY.md">sources and licences</a> before redistributing a tape.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot-dense">
+    <p>Original BSD Hangman written by Ken Arnold; copyright 1983, 1993 The Regents of the University of California. ZX Spectrum port copyright 2026 Michal Pasternak. Program code: BSD-3-Clause. Emulation: <a href="https://github.com/dtz-labs/jsspeccy3">JSSpeccy 3</a>, GPL-3.0; <a href="emulator-license/GPL-3.0.txt">deployed emulator licence</a>. Word-list terms and provenance: <a href="https://github.com/dtz-labs/bsd-hangman/blob/main/THIRD_PARTY.md">THIRD_PARTY.md</a>.</p>
+  </footer>
+
+  <noscript>This page needs JavaScript to start the ZX Spectrum emulator. Every TAP remains available from GitHub Releases.</noscript>
+  <script src="jsspeccy/jsspeccy.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

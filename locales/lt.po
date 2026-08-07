@@ -1,0 +1,141 @@
+# Translation catalog for ZX Spectrum Hangman.
+msgid ""
+msgstr ""
+"Project-Id-Version: zx-spectrum-hangman 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-07 00:00+0200\n"
+"PO-Revision-Date: 2026-08-07 00:00+0200\n"
+"Last-Translator: Michal Pasternak\n"
+"Language-Team: lt\n"
+"Language: lt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgctxt "title_48"
+msgid "HANGMAN EN 48K"
+msgstr "KARTUVES LT 48K"
+
+msgctxt "title_128"
+msgid "HANGMAN EN 128K"
+msgstr "KARTUVES LT 128K"
+
+msgctxt "edition"
+msgid "BSD GAMES EDITION"
+msgstr "BSD GAMES EDITION"
+
+msgctxt "ascii_notice"
+msgid "NO ACCENTS - A-Z ONLY"
+msgstr "BE DIAKRITIKOS - TIK A-Z"
+
+msgctxt "dictionary_prefix"
+msgid "WORDS: "
+msgstr "ZODYNAS: "
+
+msgctxt "dictionary_suffix"
+msgid " WORDS"
+msgstr " ZODZIU"
+
+msgctxt "mode_short_line"
+msgid "1  SHORT     3-4"
+msgstr "1  TRUMPI     3-4"
+
+msgctxt "mode_medium_line"
+msgid "2  MEDIUM    5-7"
+msgstr "2  VIDUTINIAI 5-7"
+
+msgctxt "mode_long_line"
+msgid "3  LONG      8-15"
+msgstr "3  ILGI       8-15"
+
+msgctxt "mode_all_line"
+msgid "4  ALL WORDS"
+msgstr "4  VISI"
+
+msgctxt "choose_mode"
+msgid "CHOOSE MODE 1-4"
+msgstr "PASIRINK REZIMA 1-4"
+
+msgctxt "keyboard"
+msgid "KEYBOARD A-Z"
+msgstr "KLAVIATURA A-Z"
+
+msgctxt "mode_label"
+msgid "MODE"
+msgstr "REZIMAS"
+
+msgctxt "mode_short"
+msgid "SHORT"
+msgstr "TRUMPI"
+
+msgctxt "mode_medium"
+msgid "MEDIUM"
+msgstr "VIDUTINIAI"
+
+msgctxt "mode_long"
+msgid "LONG"
+msgstr "ILGI"
+
+msgctxt "mode_all"
+msgid "ALL WORDS"
+msgstr "VISI"
+
+msgctxt "errors_label"
+msgid "MISSES "
+msgstr "KLAIDOS "
+
+msgctxt "round_label"
+msgid "ROUND "
+msgstr "ZAIDIMAS "
+
+msgctxt "wins_label"
+msgid "WINS "
+msgstr "LAIMETA "
+
+msgctxt "dictionary_label"
+msgid "WORDS "
+msgstr "ZODYNAS "
+
+msgctxt "guess_word"
+msgid "GUESS THE WORD"
+msgstr "ATSPEK ZODI"
+
+msgctxt "type_letter"
+msgid "TYPE A LETTER"
+msgstr "IVESK RAIDE"
+
+msgctxt "letter_repeat"
+msgid "LETTER ALREADY USED"
+msgstr "RAIDE JAU BUVO"
+
+msgctxt "letter_miss"
+msgid "NO SUCH LETTER"
+msgstr "TOKIOS RAIDES NERA"
+
+msgctxt "letter_hit"
+msgid "GOOD!"
+msgstr "GERAI!"
+
+msgctxt "won"
+msgid "WELL DONE! SOLVED."
+msgstr "PUIKU! ATSPETA."
+
+msgctxt "word_prefix"
+msgid "WORD: "
+msgstr "ZODIS: "
+
+msgctxt "next_prompt"
+msgid "ENTER-NEXT M-MENU Q-QUIT"
+msgstr "ENTER-KITAS M-MENIU Q-BAIGTI"
+
+msgctxt "thanks"
+msgid "THANKS FOR PLAYING"
+msgstr "ACIU UZ ZAIDIMA"
+
+msgctxt "any_key"
+msgid "PRESS ANY KEY"
+msgstr "SPAUSK BET KURI KLAVISA"
+
+msgctxt "license_key"
+msgid "L  LICENSE"
+msgstr "L  LICENCIJA"

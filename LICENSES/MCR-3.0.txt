@@ -1,0 +1,18 @@
+Multilingual Central Repository (MCR) 3.0
+
+The contents of this package are distributed under different open licenses.
+If you want to redistribute this software, part of it, or derived works based
+on it or on any of its parts, make sure you are doing so under the terms stated
+in the license applying to each of the involved modules.
+
+1. English WordNet synset and relation data are distributed under the original
+   WordNet licence.
+
+2. All other data in this package are distributed under the Attribution 3.0
+   Unported (CC BY 3.0) licence:
+   https://creativecommons.org/licenses/by/3.0/
+
+The Catalan and Spanish lemma extracts in this repository use item 2.
+
+Upstream notice:
+https://github.com/omwn/omw-data/blob/main/wns/mcr/LICENSE

@@ -1,0 +1,16 @@
+OpenWN-PT is licensed under the Creative Commons Attribution-ShareAlike 3.0
+Unported License:
+
+https://creativecommons.org/licenses/by-sa/3.0/
+
+OpenWN-PT is constructed for use with Princeton WordNet 3.0. The Princeton
+terms are preserved in Princeton-WordNet-3.0.txt.
+
+OpenWN-PT also includes data from Wiktionary provided by Francis Bond as part
+of Open Multilingual WordNet. Original Wiktionary entry text is dual-licensed
+under CC BY-SA 3.0 and the GNU Free Documentation License 1.1 or later, with no
+Invariant Sections, Front-Cover Texts, or Back-Cover Texts. This distribution
+uses the CC BY-SA 3.0 option.
+
+Upstream notice:
+https://github.com/omwn/omw-data/blob/main/wns/por/LICENSE

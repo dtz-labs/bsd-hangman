@@ -1,0 +1,18 @@
+This resource is derived from Princeton WordNet under the WordNet License
+and further developed under the Creative Commons Attribution 4.0
+International License. You may share and adapt this resource providing
+attribution is given to both Princeton WordNet and the Open English WordNet
+team.
+
+Copyright (c) 2019-present, The Open English WordNet Team.
+
+This work is licensed under a Creative Commons Attribution 4.0 International
+License. To view a copy of this license, visit:
+
+https://creativecommons.org/licenses/by/4.0/
+
+Source: https://github.com/globalwordnet/english-wordnet/blob/main/LICENSE.md
+Downloaded edition: Open English WordNet 2025.
+
+The underlying Princeton data retains the notice in
+Princeton-WordNet-3.0.txt.
