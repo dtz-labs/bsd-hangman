@@ -8,6 +8,8 @@
 
 [Support new ZX Spectrum software on Buy Me a Coffee](https://buymeacoffee.com/mpasternak).
 
+![The English 48K edition mid-round: the BSD gallows drawn to five of seven misses, a partly revealed word, an A-Z tracker marking every letter already guessed, and the mode, round, win, and dictionary-size panel](docs/screenshot-en-48.png)
+
 ASCII-only Hangman inspired by BSD Games, released as independent ZX Spectrum
 48K and 128K tapes in eight languages:
 
