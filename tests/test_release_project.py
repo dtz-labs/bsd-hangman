@@ -50,8 +50,17 @@ class ReleaseProjectTests(unittest.TestCase):
                 self.assertIn(f'value="{language}"', html)
         self.assertIn('value="48"', html)
         self.assertIn('value="128"', html)
-        self.assertIn('"taps/hangman-" + language + "-" + machine + ".tap"', script)
+        self.assertIn(
+            '"taps/hangman-" + selectedLanguage() + "-" + selectedMachine() + ".tap"',
+            script,
+        )
         self.assertIn("https://buymeacoffee.com/mpasternak", html)
+
+    def test_pages_reloads_the_tape_without_waiting_for_a_submit(self) -> None:
+        script = (ROOT / "site" / "app.js").read_text(encoding="utf-8")
+        self.assertIn('languageSelect.addEventListener("change"', script)
+        self.assertIn('input.addEventListener("change"', script)
+        self.assertIn("autoStart: autoStart", script)
 
 
 if __name__ == "__main__":
