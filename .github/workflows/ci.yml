@@ -50,7 +50,7 @@ jobs:
         run: test "$(find build -type f -name 'hangman-*.tap' | wc -l)" -eq 16
 
       - name: Upload TAP artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: bsd-hangman-taps
           path: build/*/hangman-*.tap
